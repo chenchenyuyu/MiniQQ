@@ -1,8 +1,8 @@
 {
-  "name": "y",
+  "name": "MiniQQ",
   "version": "1.0.0",
   "description": "A Vue.js project",
-  "author": "1486019507@qq.com <1486019507@qq.com>",
+  "author": "chenyu",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
@@ -13,8 +13,10 @@
     "lint": "eslint --ext .js,.vue src test/e2e/specs"
   },
   "dependencies": {
+    "muse-ui": "^2.0.2",
     "vue": "^2.2.6",
-    "vue-router": "^2.3.1"
+    "vue-router": "^2.3.1",
+    "vuex": "^2.3.1"
   },
   "devDependencies": {
     "autoprefixer": "^6.7.2",
