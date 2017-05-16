@@ -1,4 +1,4 @@
-# y
+# MiniQQ
 
 > A Vue.js project
 
@@ -23,4 +23,9 @@ npm run e2e
 # run all tests
 npm test
 ```
-## 使用muse-ui负责界面设计
+## 技术栈
+* vue2
+* axios
+* muse-ui
+* vue-router
+* vuex
