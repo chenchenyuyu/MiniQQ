@@ -1,4 +1,4 @@
-.border-b-1px($color){
+@mixin border-b-1px($color){
 	position:relative;
   &:after{
     display:block;
@@ -10,7 +10,7 @@
     content:'';
 	}
 }
- .border-t-1px($color){
+@mixin border-t-1px($color){
   position:relative;
   &:before{
     display:block;
@@ -23,6 +23,6 @@
 	}
 }
 // 基础颜色
-$color-w = #fff;
-$color-g = #f4f4f6;
-$color-b = #2e2c6b;
+$color-w:#fff;
+$color-g:#f4f4f6;
+$color-b:#2e2c6b;

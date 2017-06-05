@@ -4,15 +4,15 @@ import Vue from 'vue'
 import App from './App'
 import router from './router/index'
 import axios from 'axios'
-import store from 'vuex/store'
-//加载ui
+import vuex from './vuex/store'
+// 加载ui
 import MuseUI from 'muse-ui'
 import 'muse-ui/dist/muse-ui.css'
 Vue.use(MuseUI)
 
-//在vue原型当中添加$http方法等于axio
-Vue.prototype.$http=axios
-router.repalce('message')
+// 在vue原型当中添加$http方法等于axio
+Vue.prototype.$http = axios
+router.replace('message')
 
 Vue.config.productionTip = false
 
@@ -20,8 +20,8 @@ Vue.config.productionTip = false
 new Vue({
   el: '#app',
   template: '<App/>',
-   router,
-  //注入路由
+  router,
+  // 注入路由
   vuex,
   components: { App }
 

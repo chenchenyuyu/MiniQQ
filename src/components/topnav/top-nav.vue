@@ -14,34 +14,32 @@
                      slot="right" />
    </mu-appbar>
  </template>
- 
  <script>
- export default {
-   data() {
-     return {
-       avatar: '/static/images/avatar.jpg'
-     }
-   }
- }
+export default {
+  data () {
+    return {
+      avatar: '/static/images/avatar.jpg'
+    }
+  }
+}
  </script>
 
 <style lang="scss" scoped>
  .mu-appbar{
- 	  position: absolute
-    top: 0
-    left: 0
-    width: 100%
-    height: 100%
-    background:#fff
-    color:#2e2c6b
-    .mu-avatar
-      margin-left:12px
-    .title
-      padding-left: 10px
-      text-align: center
-      font-weight: 700
-    
+ 	  position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:#fff;
+    color:#2e2c6b;
+    .mu-avatar{
+        margin-left:12px;
+      }
+    .title{
+      padding-left: 10px;
+      text-align: center;
+      font-weight: 700;
+    }
  }
-  
  </style>
- 

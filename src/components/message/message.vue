@@ -1,5 +1,4 @@
 <template>
- 
    <mu-list>
     <mu-list-item title="这个周末一起吃饭么?">
       <mu-avatar :src="avatar1" slot="leftAvatar"/>
@@ -99,20 +98,20 @@
       </mu-icon-menu>
     </mu-list-item>    
   </mu-list>
-
 </template>
 <script>
 
- export default {
+export default {
   data () {
     return {
       avatar1: '/static/images/avatar1.jpg',
-       avatar2: '/static/images/avatar2.jpg',
-       avatar3: '/static/images/avatar3.jpg',
-       avatar4: '/static/images/avatar4.jpg'
-     }
-   }
- }
+      avatar2: '/static/images/avatar2.jpg',
+      avatar3: '/static/images/avatar3.jpg',
+      avatar4: '/static/images/avatar4.jpg'
+    }
+  }
+}
+
  </script>
  <style lang = "scss">
  .mu-list{
