@@ -4,7 +4,7 @@
 				class="bottom-tab">			
 	<mu-bottom-nav-item value="message"
 						title="Massege"
-						icon="chat"/>
+						icon="chat_bubble_outline"/>
 	<mu-bottom-nav-item value="friends"
 						title="Friends"
 						icon="people"/>
@@ -23,6 +23,7 @@
   methods: {
     handleChange (val) {
       this.bottomNav = val
+      this.$router.push(val)
     }
   }
 	}

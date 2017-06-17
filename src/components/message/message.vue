@@ -38,7 +38,7 @@
   </mu-list-item>
     <mu-divider inset/>
   <mu-list-item title="Myron Liu">
-    <mu-avatar :src="avatar4" slot="leftAvatar"/>
+    <mu-avatar :src="avatar1" slot="leftAvatar"/>
       <span slot="describe">
         <span style="color: rgba(0, 0, 0, .87)">哇去</span><br/> 编不下去，这就是个demo
       </span>
